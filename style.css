@@ -46,19 +46,21 @@ body {
 }
 
 .form-name, .form-email {
-    width: 50%;
+    width: 49%;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
 }
 
-/* .form-name {
-    margin-right: 5px;
+.form-name {
+    margin-right: 3px;
+    box-sizing: border-box;
 }
 
 .form-email {
-    margin-left: 5px;
-} */
+    margin-left: 3px;
+    box-sizing: border-box;
+}
 
 .form-subject, .form-message {
     width: 100%;
